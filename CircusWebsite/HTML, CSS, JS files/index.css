@@ -1,3 +1,8 @@
+body {
+    padding: 0;
+    margin: 0;
+  }
+
 header {
 background-image: url('Images/BannerStripes.jpg');
 width: 100%;
@@ -5,37 +10,75 @@ height: 100px;
 white-space: nowrap;
 }
 
-#Logo {
-display: inline-block;
-width: 120px;
-height: 90px;
-vertical-align: middle;
+header img{
+    width: 75px;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-header h1{
-    display: inline-block;
+#SmallPadding{
+    padding-top: 5px;
+}
+
+header th{
     vertical-align: middle;
     text-align: center;
-    margin-right: 6%;
-    margin-left: 6%;
-    margin-bottom: 20px;
+    font-family:'Times New Roman', Times, serif;
     color: rgb(255,255,89);
+    padding-top: 20px;
+    font-size: 15pt;
 }
 
-article table{
+header table{
+    width: 100%;
+}
+
+table{
     text-align: center;
+    margin:auto;
+    table-layout: fixed;
+}
+
+.welcome{
     width: 50%;
     height: 50%;
-    margin:auto;
     margin-top:200px;
+    margin-bottom:200px;
 }
 
-article th{
+.welcomeTitle{
     font-size: 50pt;
+    width: 20%;
     color: rgb(255, 254, 243);
 }
 
-article td{
-    font-size: 20pt;
-    color: rgb(99, 134, 189);
+.welcomeSubHeading{
+    font-size: 15pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(70, 107, 165);
+}
+
+.imageTable{
+    width:85%;
+    font-size: 14pt;
+    color: rgb(70, 107, 165);
+}
+
+.tableimages{
+    width: 350px;
+    height: 250px;
+}
+
+.subtext{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 35px;
+    padding-right: 35px;
+
+}
+
+#sketch-container{
+    position:fixed;
+    z-index: -99999;
 }
