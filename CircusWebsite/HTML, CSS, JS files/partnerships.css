@@ -35,7 +35,14 @@ header th{
 
 header table{
     width: 100%;
+}
+
+table{
     text-align: center;
     margin:auto;
     table-layout: fixed;
+}
+
+.comp_img{
+    float: right;
 }
